@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --head-bg: #131010;
+}
+
+body {
+  background-color: rgba(19, 16, 16, 1);
+  color: #ffffff;
+  background-size: 90px 90px;
+  background-image:
+          linear-gradient(to right, grey 1px, transparent 1px),
+          linear-gradient(to bottom, grey 1px, transparent 1px);
+}
+
+.header {
+  height: 90vh;
+  width: 100vw;
+  background-image: url("/bbblurry.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
