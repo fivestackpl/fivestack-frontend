@@ -4,25 +4,29 @@
 
 :root {
   --head-bg: #131010;
+  overflow: scroll; 
 }
 
 body {
   background-color: rgba(19, 16, 16, 1);
   color: #ffffff;
-  background-size: 90px 90px;
+  background-size: 250px 250px;
   background-image:
-          linear-gradient(to right, grey 1px, transparent 1px),
-          linear-gradient(to bottom, grey 1px, transparent 1px);
+          url("/topography.svg"); /* added the svg image */
 }
-
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* make scrollbar transparent */
+  }
 .header {
   height: 90vh;
   width: 100vw;
-  background-image: url("/bbblurry.svg");
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
   justify-content: center;
-  align-content: center;
+  align-items: center;
   flex-direction: column;
+  margin-top: 150px;
+
 }
