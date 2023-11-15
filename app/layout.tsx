@@ -4,8 +4,6 @@ import Head from 'next/head'
 import { Inter } from 'next/font/google'
 import './globals.css'
 
-const inter = Inter({ subsets: ['latin'] })
-
 export const metadata: Metadata = {
   title: 'FiveStack.pl',
   description: 'Pozwól nam wszystko wyszlifować',
@@ -86,7 +84,7 @@ export default function RootLayout({
 
   return (
     <html lang="pl">
-      <body className='{inter.className} bg-blacks overflow-visible'>
+      <body className='bg-blacks overflow-visible'>
       <div>
             <header>
                 <nav className="items-center pt-5 px-4 mx-auto max-w-screen-xl sm:px-8 sm:flex sm:space-x-6">
