@@ -17,7 +17,7 @@ export default function Home() {
                 <path strokeLinecap="round" strokeLinejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
             </svg>,
         title: "Bezpieczeństwo",
-        desc: "Nasza infrastruktura jest wyposażona w wielowarstwowe zabezpieczenia, obejmujące zarówno podstawowe, jak i kompleksowe mechanizmy, aby skutecznie uniemożliwić wszelkie próby atakowania klientów ."
+        desc: "Nasza infrastruktura jest wyposażona w wielowarstwowe zabezpieczenia, obejmujące zarówno podstawowe, jak i kompleksowe mechanizmy, aby skutecznie uniemożliwić wszelkie próby atakowania klientów."
     },
     {
         icon:
@@ -25,7 +25,7 @@ export default function Home() {
                 <path strokeLinecap="round" strokeLinejoin="round" d="M6.429 9.75L2.25 12l4.179 2.25m0-4.5l5.571 3 5.571-3m-11.142 0L2.25 7.5 12 2.25l9.75 5.25-4.179 2.25m0 0L21.75 12l-4.179 2.25m0 0l4.179 2.25L12 21.75 2.25 16.5l4.179-2.25m11.142 0l-5.571 3-5.571-3" />
             </svg>,
         title: "Skalowalność",
-        desc: "Nasze oprogramowanie jest zoptymalizowane pod kątem łatwej skalowalności, umożliwiając szybkie dostosowywanie się do rosnących potrzeb"
+        desc: "Nasze oprogramowanie jest zoptymalizowane pod kątem łatwej skalowalności, umożliwiając szybkie dostosowywanie się do rosnących potrzeb."
     },
 ]
 
@@ -60,7 +60,7 @@ export default function Home() {
                         Zrób z nami <div className='text-orange-400 font-bold'> więcej</div>
                     </h3>
                     <p className="mt-3">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius, enim ex faucibus purus
+                        Nasze innowacyjne rozwiązania ułatwiają Twojej firmie ekspansję na światowe rynki, gwarantując elastyczność i skuteczność w dostosowywaniu się do różnych wymagań biznesowych.
                     </p>
                 </div>
                 <div className="mt-12 lg:mt-0">
