@@ -50,7 +50,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="flex-1 text-center mt-7 lg:mt-0 lg:ml-3">
-                    <img src="/head.svg" className="w-full mx-auto sm:w-10/12  lg:w-full" />
+                    <img src="./head.svg" className="w-full mx-auto sm:w-10/12  lg:w-full" />
                 </div>
     </section>
     <section className="relative py-28 mt-28">
