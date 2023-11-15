@@ -15,7 +15,8 @@ const config: Config = {
       },
       colors: {
         'blacks': '#0c0c0c',
-        'blackd': '#1e1e1e'
+        'blackd': '#1e1e1e',
+        'blacke': '#282828'
       }
     },
   },

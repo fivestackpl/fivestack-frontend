@@ -14,10 +14,11 @@ body {
   background-image:
           url("/topography.svg"); /* added the svg image */
 }
-/* ::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: 0px;
-  background: transparent; /* make scrollbar transparent 
-  } */
+  height: 0px;
+  background: transparent; /* make scrollbar transparent */
+  }
 .header {
   height: 90vh;
   width: 100vw;
