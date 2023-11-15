@@ -44,7 +44,7 @@ export default function Home() {
                         <a href="" className="px-7 py-3 w-full bg-orange-500 hover:bg-orange-600 text-gray-200 text-center rounded-md shadow-md block sm:w-auto">
                             Zacznij teraz
                         </a>
-                        <a href="" className="px-7 py-3 w-full bg-gray-700 hover:bg-gray-800 text-gray-200 text-center rounded-md block sm:w-auto">
+                        <a href="" className="px-7 py-3 w-full bg-blacke hover:bg-blackd text-gray-200 text-center rounded-md block sm:w-auto">
                             Zobacz więcej
                         </a>
                     </div>
