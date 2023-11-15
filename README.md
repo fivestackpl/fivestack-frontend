@@ -7,7 +7,8 @@ Repozytorium zawiera kod źródłowy naszej strony głównej. Obecnie jest w tra
 👯‍♂️ Zklonuj repozytorium
 
 ```bash
-git clone git@github.com/fivestackpl/fivestack-frontend.git
+git clone https://github.com/fivestackpl/fivestack-frontend.git
+git checkout beta
 ```
 
 📂 Wejdź w folder repozytorium
