@@ -11,6 +11,7 @@ export const metadata: Metadata = {
   description: 'Pozwól nam wszystko wyszlifować',
 }
 
+
 export default function RootLayout({
   children,
 }: {
@@ -18,25 +19,34 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pl">
-      <body className={inter.className}>
-        <nav className="bg-ttransparent">
-          <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 h-16 w-max flex items-center">
-            <div className='relative flex items-center justify-between'>
-
-            </div>
-            <div className="flex flex-1 items-center justify-center sm:justify-start">
-                <div className="flex flex-shrink-0 items-center">
-                    <ul className="decoration-0 flex gap-3">
-                        <li className="font-semibold hover:text-gray-300"><a href="/panel"> Panel Klienta </a></li>
-                        <li className="font-semibold hover:text-gray-300"><a href="/panel"> Kontakt </a></li>
-                        <li className="font-semibold hover:text-gray-300"><a href="/panel"> Zespół </a></li>
-                        <li className="font-semibold hover:text-gray-300"><a href="/panel"> Portfolio </a></li>
+      <body className='{inter.className} bg-blacks'>
+      <div>
+            <header>
+                <nav className="items-center pt-5 px-4 mx-auto max-w-screen-xl sm:px-8 sm:flex sm:space-x-6">
+                    <a href="/">
+                        <img
+                            src="/fivestack.png" 
+                            width={120} 
+                            height={50}
+                            alt="FiveStack"
+                        />
+                    </a>
+                    <ul className="py-4 flex-1 items-center flex space-x-3 sm:space-x-6 sm:justify-end">
+                        <li className="text-gray-200 hover:text-gray-300">
+                            <a href="">Strona Główna</a>
+                        </li>
+                        <li>
+                            <a href="/login" className="flex items-center text-gray-200 hover:text-gray-300">
+                                Zaloguj się
+                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fillRule="evenodd" d="M3 3a1 1 0 011 1v12a1 1 0 11-2 0V4a1 1 0 011-1zm7.707 3.293a1 1 0 010 1.414L9.414 9H17a1 1 0 110 2H9.414l1.293 1.293a1 1 0 01-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0z" clipRule="evenodd" />
+                                </svg>
+                            </a>
+                        </li>
                     </ul>
-                </div>
-            </div>
-          </div>
-
-        </nav>
+                </nav>
+            </header>
+        </div>
         {children}
         </body>
     </html>
