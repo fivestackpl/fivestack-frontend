@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pl">
-      <body className='{inter.className} bg-blacks'>
+      <body className='{inter.className} bg-blacks overflow-visible'>
       <div>
             <header>
                 <nav className="items-center pt-5 px-4 mx-auto max-w-screen-xl sm:px-8 sm:flex sm:space-x-6">
@@ -33,7 +33,7 @@ export default function RootLayout({
                     </a>
                     <ul className="py-4 flex-1 items-center flex space-x-3 sm:space-x-6 sm:justify-end">
                         <li className="text-gray-200 hover:text-gray-300">
-                            <a href="">Strona Główna</a>
+                            <a href="/">Strona Główna</a>
                         </li>
                         <li>
                             <a href="/login" className="flex items-center text-gray-200 hover:text-gray-300">
