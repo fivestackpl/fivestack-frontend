@@ -1,52 +1,41 @@
+# 🚀 FiveStack.pl (Frontend) [![NextJS](https://img.shields.io/badge/NextJS-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
 
-# FiveStack.pl Next.js (Frontend)
-
-Repozytorium w którym umieszczony jest kod źródłowy naszej strony glównej. (Aktualnie w trakcje przerabiania)
-
+Repozytorium zawiera kod źródłowy naszej strony głównej. Obecnie jest w trakcie przerabiania.
 
 ## Uruchom lokalnie
 
-Zklonuj repozytorium
+👯‍♂️ Zklonuj repozytorium
 
 ```bash
-  git clone git@github.com/fivestackpl/fivestack-frontend.git
+git clone git@github.com/fivestackpl/fivestack-frontend.git
 ```
 
-Wejdź w folder repozytorium
-
+📂 Wejdź w folder repozytorium
 ```bash
-  cd fivestack-frontend
+cd fivestack-frontend
 ```
 
-Zainstaluj wymagane paczki
-
+📦 Zainstaluj wymagane paczki
 ```bash
-  npm install
+npm install
 ```
 
-Wystartuj serwer w wersji dev (Kompilowanie w czasie rzeczywistym)
+🚀 Wystartuj serwer w wersji dev (Kompilowanie w czasie rzeczywistym)
 ```bash
-  npm run start:dev
+npm run start:dev
 ```
 
-
-## Demo
-
+### Demo
 Demo jest dostępne pod [tym adresem](https://fivestackpl.github.io/fivestack-frontend/)
 
-
-## Feedback
-
+### Feedback
 Z przyjemnością przyjmujemy każdą opinię, którą można kierować na hello@fivestack.pl
 
+### Autorzy
+ - @stripsior
+ - @doniczek
 
-## Autorzy
-
-- [@stripsior](https://www.github.com/stripsior)
-- [@doniczek](https://www.github.com/doniczek)
-
-
-## License
-
-[GNU Affero General Public License v3.0](https://choosealicense.com/licenses/agpl-3.0/)
-
+### License
+```md
+GNU Affero General Public License v3.0
+```
