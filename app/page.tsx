@@ -1,4 +1,6 @@
 import Image from 'next/image'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons"
 
 export default function Home() {
 
@@ -86,7 +88,7 @@ export default function Home() {
             </div>
         </div>
         </section>
-    <section className="relative py-28 mt-15">
+    <section className="relative py-28 mt-20">
             <div className="relative z-10 max-w-screen-xl mx-auto px-4 text-gray-300 justify-between gap-24 lg:flex md:px-8">
                 <div className="max-w-xl">
                     <h3 className="text-white text-3xl font-semibold sm:text-4xl">
@@ -118,9 +120,9 @@ export default function Home() {
                     </ul>
                 </div>
             </div>
-            <div className="absolute inset-0 max-w-md mx-auto h-72 blur-[118px] mt-12" style={{ background: "linear-gradient(152.92deg, rgba(251, 146, 60, 0.2) 4.54%, rgba(251, 146, 60, 0.26) 34.2%, rgba(251, 146, 60, 0.1) 77.55%)" }}></div>
+            <div className="absolute inset-0 max-w-md mx-auto h-72 blur-[118px] mt-20" style={{ background: "linear-gradient(152.92deg, rgba(251, 146, 60, 0.2) 4.54%, rgba(251, 146, 60, 0.26) 34.2%, rgba(251, 146, 60, 0.1) 77.55%)" }}></div>
         </section>
-    <section className='relative py-28 mt-20'>
+    <section className='relative py-28 mt-15'>
         <div className='relative z-10 max-w-screen-xl mx-auto px-4 text-gray-300 justify-between gap-24 lg:flex md:px-8'>
             <div className='max-w-xl'>
                     <h3 className='text-white text-3xl font-semibold sm:text-4xl'>
@@ -130,9 +132,44 @@ export default function Home() {
                         Zapytaj o naszą ofertę lub poprostu z nami porozmawiaj o twojej wizji, napewno ci odpowiemy
                     </p>
 
-                    <div className='mt-2 text-gray-300'>
-                        
+                    <div className='mt-2 text-gray-300 text-base'>
+                        <p className='flex items-center gap-2 pt-2'> <FontAwesomeIcon icon={ faEnvelope } style={{ height: "1rem" }} /> <span>hello@fivestack.pl</span> </p>
+                        <p className='flex items-center gap-2 pt-2'> <FontAwesomeIcon icon={ faPhone } style={{ height: "1rem" }} /> <span>WKRÓTCE</span> </p>
                     </div>
+            </div>
+            <div>
+                <form action="mailto:hello@fivestack.pl" method='get' encType='text/plain'>
+                        <div className='flex gap-4 pt-4'>
+                            <input
+                                type="text"
+                                placeholder="Imię"
+                                className="pl-12 pr-3 py-2 text-gray-500 bg-transparent outline-none border border-blacke focus:border-orange-600 shadow-sm rounded-lg"
+                                style={{ width: "19.5vw" }}
+                            />
+                            <input
+                                type="text"
+                                placeholder="Nazwisko"
+                                className="pl-12 pr-3 py-2 text-gray-500 bg-transparent outline-none border border-blacke focus:border-orange-600 shadow-sm rounded-lg"
+                                style={{ width: "19.5vw" }}
+                            />
+                        </div>
+                        <div className='flex gap-4 pt-4'>
+                            <textarea
+                                placeholder="Treść wiadomości"
+                                name='body'
+                                className="pl-12 pr-3 py-2 text-gray-500 bg-transparent outline-none border border-blacke focus:border-orange-600 shadow-sm rounded-lg"
+                                style={{ width: "40vw", height: "30vh", resize: "none" }}
+                            />
+                        </div>
+
+                        <div className='flex gap-4 pt-4'>
+                            <button
+                                type='submit'
+                                className="pl-12 pr-3 py-2 text-white bg-orange-600 bg-transparent outline-none border border-blacke focus:border-orange-600 shadow-sm rounded-lg"
+                                style={{ width: "40vw" }}
+                            > Wyślij </button>
+                        </div>
+                </form>
             </div>
         </div>
 
