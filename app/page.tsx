@@ -129,7 +129,7 @@ export default function Home() {
                         Skontaktuj się z nami
                     </h3>
                     <p className='mt-3'>
-                        Zapytaj o naszą ofertę lub poprostu z nami porozmawiaj o twojej wizji, napewno ci odpowiemy
+                        Zapytaj o naszą ofertę lub poprostu z nami porozmawiaj o twojej wizji, napewno ci odpowiemy.
                     </p>
 
                     <div className='mt-2 text-gray-300 text-base'>
