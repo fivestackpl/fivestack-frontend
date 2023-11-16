@@ -17,6 +17,10 @@ const config: Config = {
         'blacks': '#0c0c0c',
         'blackd': '#1e1e1e',
         'blacke': '#282828'
+      },
+      margin: {
+        '15vh': '15vh',
+        '20vh' : '20vh'
       }
     },
   },
