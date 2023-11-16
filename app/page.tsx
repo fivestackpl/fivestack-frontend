@@ -43,7 +43,7 @@ export default function Home() {
                         Współpracując z FiveStack®️ możesz być pewny o wizerunek swojej firmy, z nami stworzysz najładniejszą strone lub aplikacje dla twojej firmy
                     </p>
                     <div className="pt-10 items-center justify-center space-y-3 sm:space-x-6 sm:space-y-0 sm:flex lg:justify-start">
-                        <a href="" className="px-7 py-3 w-full bg-orange-500 hover:bg-orange-600 text-gray-200 text-center rounded-md shadow-md block sm:w-auto">
+                        <a href="#contact" className="px-7 py-3 w-full bg-orange-500 hover:bg-orange-600 text-gray-200 text-center rounded-md shadow-md block sm:w-auto">
                             Zacznij teraz
                         </a>
                         <a href="" className="px-7 py-3 w-full bg-blacke hover:bg-blackd text-gray-200 text-center rounded-md block sm:w-auto">
@@ -122,7 +122,7 @@ export default function Home() {
             </div>
             <div className="absolute inset-0 max-w-md mx-auto h-72 blur-[118px] mt-20" style={{ background: "linear-gradient(152.92deg, rgba(251, 146, 60, 0.2) 4.54%, rgba(251, 146, 60, 0.26) 34.2%, rgba(251, 146, 60, 0.1) 77.55%)" }}></div>
         </section>
-    <section className='relative py-28 mt-15'>
+    <section className='relative py-28 mt-15' id='contact'>
         <div className='relative z-10 max-w-screen-xl mx-auto px-4 text-gray-300 justify-between gap-24 lg:flex md:px-8'>
             <div className='max-w-xl'>
                     <h3 className='text-white text-3xl font-semibold sm:text-4xl'>

@@ -17,7 +17,7 @@ export default function RootLayout({
 }) {
 
   return (
-    <html lang="pl">
+    <html lang="pl" className='scroll-smooth'>
       <body className='bg-blacks overflow-visible'>
       <div>
             <header>
@@ -44,6 +44,10 @@ export default function RootLayout({
             </header>
         </div>
         {children}
+
+        <footer className='w-full pt-5 pb-5'>
+            <p className='text-gray-600 text-center'> Stworzone z ❤️ przez <a href="https://github.com/fivestackpl" className='text-orange-500 hover:text-orange-600'>FiveStack</a> i jest dostępne za darmo na <a href="https://github.com/fivestackpl/fivestack-frontend" className='text-orange-500 hover:text-orange-600'>Githubie</a></p>
+        </footer>
         </body>
     </html>
   )
