@@ -21,6 +21,10 @@ const config: Config = {
       margin: {
         '15vh': '15vh',
         '20vh' : '20vh'
+      },
+      height: {
+        '19.5vw': '19.5vw',
+        '40vw': '40vw'
       }
     },
   },

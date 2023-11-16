@@ -143,31 +143,28 @@ export default function Home() {
                             <input
                                 type="text"
                                 placeholder="Imię"
-                                className="pl-12 pr-3 py-2 text-gray-500 bg-transparent outline-none border border-blacke focus:border-orange-600 shadow-sm rounded-lg"
-                                style={{ width: "19.5vw" }}
+                                className="lg:w-19.5vw w-full pl-12 pr-3 py-2 text-gray-500 bg-transparent outline-none border border-blacke focus:border-orange-600 shadow-sm rounded-lg"
                             />
                             <input
                                 type="text"
                                 placeholder="Nazwisko"
-                                className="pl-12 pr-3 py-2 text-gray-500 bg-transparent outline-none border border-blacke focus:border-orange-600 shadow-sm rounded-lg"
-                                style={{ width: "19.5vw" }}
+                                className="lg:w-19.5vw w-full pl-12 pr-3 py-2 text-gray-500 bg-transparent outline-none border border-blacke focus:border-orange-600 shadow-sm rounded-lg"
                             />
                         </div>
                         <div className='flex gap-4 pt-4'>
                             <textarea
                                 placeholder="Treść wiadomości"
                                 name='body'
-                                className="pl-12 pr-3 py-2 text-gray-500 bg-transparent outline-none border border-blacke focus:border-orange-600 shadow-sm rounded-lg"
-                                style={{ width: "40vw", height: "30vh", resize: "none" }}
+                                className="lg:w-40vw w-full pl-12 pr-3 py-2 text-gray-500 bg-transparent outline-none border border-blacke focus:border-orange-600 shadow-sm rounded-lg"
+                                style={{ height: "30vh", resize: "none" }}
                             />
                         </div>
 
-                        <div className='flex gap-4 pt-4'>
+                        <div className='flex gap-4 pt-4 justify-center'>
                             <button
                                 type='submit'
-                                className="pl-12 pr-3 py-2 text-white bg-orange-600 bg-transparent outline-none border border-blacke focus:border-orange-600 shadow-sm rounded-lg"
-                                style={{ width: "40vw" }}
-                            > Wyślij </button>
+                                className="lg:w-40vw w-full py-2 text-center text-white bg-orange-600 hover:bg-orange-700 outline-none border border-blacke shadow-sm rounded-lg"
+                            >Wyślij</button>
                         </div>
                 </form>
             </div>
