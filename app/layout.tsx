@@ -24,7 +24,7 @@ export default function RootLayout({
                 <nav className="items-center pt-5 px-4 mx-auto max-w-screen-xl sm:px-8 sm:flex sm:space-x-6">
                     <a href="/">
                         <img
-                            src="/fivestack.png" 
+                            src="./fivestack.png" 
                             width={120} 
                             height={50}
                             alt="FiveStack"
