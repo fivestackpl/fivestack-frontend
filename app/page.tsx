@@ -43,10 +43,10 @@ export default function Home() {
                         Współpracując z FiveStack®️ możesz być pewny o wizerunek swojej firmy, z nami stworzysz najładniejszą strone lub aplikacje dla twojej firmy
                     </p>
                     <div className="pt-10 items-center justify-center space-y-3 sm:space-x-6 sm:space-y-0 sm:flex lg:justify-start">
-                        <a href="#contact" className="px-7 py-3 w-full bg-orange-500 hover:bg-orange-600 text-gray-200 text-center rounded-md shadow-md block sm:w-auto">
+                        <a href="#contact" className="px-7 py-3 w-full transition hover:transition-all duration-700 bg-orange-500 hover:bg-orange-600 text-gray-200 text-center rounded-md shadow-md block sm:w-auto">
                             Zacznij teraz
                         </a>
-                        <a href="" className="px-7 py-3 w-full bg-blacke hover:bg-blackd text-gray-200 text-center rounded-md block sm:w-auto">
+                        <a href="" className="px-7 py-3 w-full transition bg-blacke hover:bg-blackd duration-700 text-gray-200 text-center rounded-md block sm:w-auto">
                             Zobacz więcej
                         </a>
                     </div>
@@ -129,7 +129,7 @@ export default function Home() {
                         Skontaktuj się z nami
                     </h3>
                     <p className='mt-3'>
-                        Zapytaj o naszą ofertę lub poprostu z nami porozmawiaj o twojej wizji, napewno ci odpowiemy
+                        Zapytaj o naszą ofertę lub poprostu z nami porozmawiaj o twojej wizji, napewno ci odpowiemy.
                     </p>
 
                     <div className='mt-2 text-gray-300 text-base'>
@@ -138,7 +138,7 @@ export default function Home() {
                     </div>
             </div>
             <div>
-                <form action="mailto:hello@fivestack.pl" method='get' encType='text/plain'>
+                <form action="mailto:hello@fivestack.pl" method='post' encType='text/plain'>
                         <div className='flex gap-4 pt-4'>
                             <input
                                 type="text"
