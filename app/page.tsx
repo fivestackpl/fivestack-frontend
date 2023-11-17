@@ -138,7 +138,7 @@ export default function Home() {
                     </div>
             </div>
             <div>
-                <form action="mailto:hello@fivestack.pl" method='get' encType='text/plain'>
+                <form action="mailto:hello@fivestack.pl" method='post' encType='text/plain'>
                         <div className='flex gap-4 pt-4'>
                             <input
                                 type="text"
