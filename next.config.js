@@ -8,7 +8,7 @@ const nextConfig = {
     headers: () => {
         return [
             {
-                source: "/*",
+                source: "/",
                 headers: [
                     {
                         key: "Cache-Control",
