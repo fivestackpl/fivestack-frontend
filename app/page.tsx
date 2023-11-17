@@ -46,41 +46,41 @@ export default function Home() {
                         <a href="#contact" className="px-7 py-3 w-full transition hover:transition-all duration-700 bg-orange-500 hover:bg-orange-600 text-gray-200 text-center rounded-md shadow-md block sm:w-auto">
                             Zacznij teraz
                         </a>
-                        <a href="" className="px-7 py-3 w-full transition bg-blacke hover:bg-blackd duration-700 text-gray-200 text-center rounded-md block sm:w-auto">
+                        <a href="#" className="px-7 py-3 w-full transition bg-blacke hover:bg-blackd duration-700 text-gray-200 text-center rounded-md block sm:w-auto">
                             Zobacz więcej
                         </a>
                     </div>
                 </div>
                 <div className="flex-1 text-center mt-7 lg:mt-0 lg:ml-3">
-                    <img src="./head.svg" className="w-full invisible mx-auto sm:w-10/12 lg:w-full lg:visible" />
+                    <img src="./head.svg" className="w-full invisible mx-auto sm:w-10/12 lg:w-full lg:visible" alt='2 Coders' />
                 </div>
     </section>
-    <section className='mt-20vh'>
+    <section className='mt-20vh' id='about'>
         <div className="py-14">
             <div className="max-w-screen-xl mx-auto px-4 md:px-8">
-                <h3 className="font-semibold text-sm text-gray-300 text-center">
+                <h4 className="font-semibold text-sm text-gray-300 text-center">
                     TECHNOLOGIE, KTÓRE UŻYWAMY
-                </h3>
+                </h4>
                 <div className="mt-6">
                     <ul className="flex gap-x-10 gap-y-6 flex-wrap items-center justify-center md:gap-x-16">
                         {/* LOGO 1 */}
                       <li>
-                        <img src="./nextjs.png" alt="Next.js" className='w-28' />
+                        <img src="./nextjs.webp" alt="Next.js" className='w-28' />
                       </li>
 
                         {/* LOGO 2 */}
                       <li>
-                        <img src="./nodejs.png" alt="NodeJS" className='w-28' />
+                        <img src="./nodejs.webp" alt="NodeJS" className='w-28' />
                       </li>
 
                         {/* LOGO 3 */}
                       <li>
-                        <img src="./github.png" alt="Github" className='w-28' />
+                        <img src="./github.webp" alt="Github" className='w-28' />
                       </li>
 
                         {/* LOGO 4 */}
                     <li>
-                        <img src="./aws.png" alt="Github" className='w-16' />
+                        <img src="./aws.webp" alt="Github" className='w-16' />
                       </li>
 
                     </ul>

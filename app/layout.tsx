@@ -22,13 +22,16 @@ export default function RootLayout({
 
   return (
     <html lang="pl" className='scroll-smooth'>
+      <Head>
+          <meta name='theme-color' content='#fb923c' />
+      </Head>
       <body className='bg-blacks overflow-visible'>
       <div>
             <header>
                 <nav className="items-center pt-5 px-4 mx-auto max-w-screen-xl sm:px-8 sm:flex sm:space-x-6">
                     <a href="/">
                         <img
-                            src="./fivestack.png" 
+                            src="./fivestack.webp" 
                             width={120} 
                             height={50}
                             alt="FiveStack"
@@ -38,10 +41,8 @@ export default function RootLayout({
                         <li className="text-gray-200 hover:text-gray-300">
                             <a href="/">Strona Główna</a>
                         </li>
-                        <li>
-                            <a href="/" className="flex items-center text-gray-200 hover:text-gray-300">
-                                
-                            </a>
+                        <li className="text-gray-200 hover:text-gray-300">
+                            <a href="/#about">Nasze zalety</a>
                         </li>
                     </ul>
                 </nav>
