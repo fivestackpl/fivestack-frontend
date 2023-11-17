@@ -7,6 +7,7 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'FiveStack.pl',
   description: 'Pozwól nam wszystko wyszlifować',
+  themeColor: '#fb923c'
 }
 
 
