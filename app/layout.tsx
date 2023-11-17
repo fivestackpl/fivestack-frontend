@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
-import Meta from "next/meta"
 import Head from 'next/head'
 import { Inter } from 'next/font/google'
 import './globals.css'
