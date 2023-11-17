@@ -10,9 +10,6 @@
 body {
   background-color: rgba(19, 16, 16, 1);
   color: #ffffff;
-  background-size: 250px 250px;
-  background-image:
-          url("/topography.svg"); /* added the svg image */
 }
 ::-webkit-scrollbar {
   width: 0px;
