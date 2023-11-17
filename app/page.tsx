@@ -107,7 +107,7 @@ export default function Home() {
                                         {item.icon}
                                     </div>
                                     <div>
-                                        <h4 className="text-lg text-gray-100 font-semibold">
+                                        <h4 className="text-lg text-gray-100 font-semibold transition hover:text-orange-500 delay-100">
                                             {item.title}
                                         </h4>
                                         <p className="mt-3">
@@ -144,11 +144,13 @@ export default function Home() {
                                 type="text"
                                 placeholder="Imię"
                                 className="lg:w-19.5vw w-full pl-12 pr-3 py-2 text-gray-500 bg-transparent outline-none border border-blacke focus:border-orange-600 shadow-sm rounded-lg"
+                                required
                             />
                             <input
                                 type="text"
                                 placeholder="Nazwisko"
                                 className="lg:w-19.5vw w-full pl-12 pr-3 py-2 text-gray-500 bg-transparent outline-none border border-blacke focus:border-orange-600 shadow-sm rounded-lg"
+                                required
                             />
                         </div>
                         <div className='flex gap-4 pt-4'>
@@ -157,6 +159,7 @@ export default function Home() {
                                 name='body'
                                 className="lg:w-40vw w-full pl-12 pr-3 py-2 text-gray-500 bg-transparent outline-none border border-blacke focus:border-orange-600 shadow-sm rounded-lg"
                                 style={{ height: "30vh", resize: "none" }}
+                                required
                             />
                         </div>
 

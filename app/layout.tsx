@@ -6,7 +6,11 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'FiveStack.pl',
-  description: 'Pozwól nam wszystko wyszlifować',
+  description: 'Współpracując z FiveStack®️ możesz być pewny o wizerunek swojej firmy, z nami stworzysz najładniejszą strone lub aplikacje dla twojej firmy',
+  themeColor: '#fb923c',
+  openGraph: {
+    images: [{url: "https://cdn.discordapp.com/attachments/1174457335150805022/1175122959074074834/nbg.png?ex=656a158a&is=6557a08a&hm=bdf0f4ad5612d9fbd555e7689d37eb7fa536be73fdd7d7997c846f9f96a2ed53&"}]
+  }
 }
 
 
