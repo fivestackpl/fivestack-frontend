@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
+import Meta from "next/meta"
 import Head from 'next/head'
 import { Inter } from 'next/font/google'
 import './globals.css'
@@ -22,6 +23,9 @@ export default function RootLayout({
 
   return (
     <html lang="pl" className='scroll-smooth'>
+      <Head>
+          <meta name='theme-color' content='#fb923c' />
+      </Head>
       <body className='bg-blacks overflow-visible'>
       <div>
             <header>
