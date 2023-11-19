@@ -46,7 +46,7 @@ export default function Home() {
                         <a href="#contact" className="px-7 py-3 w-full transition hover:transition-all duration-700 bg-orange-500 hover:bg-orange-600 text-gray-200 text-center rounded-md shadow-md block sm:w-auto">
                             Zacznij teraz
                         </a>
-                        <a href="#" className="px-7 py-3 w-full transition bg-blacke hover:bg-blackd duration-700 text-gray-200 text-center rounded-md block sm:w-auto">
+                        <a href="#about" className="px-7 py-3 w-full transition bg-blacke hover:bg-blackd duration-700 text-gray-200 text-center rounded-md block sm:w-auto">
                             Zobacz więcej
                         </a>
                     </div>
