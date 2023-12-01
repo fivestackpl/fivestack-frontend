@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
+import Script from 'next/script'
 import Head from 'next/head'
 import { Inter } from 'next/font/google'
 import './globals.css'
@@ -65,6 +66,8 @@ export default function RootLayout({
         <footer className='w-full pt-5 pb-5'>
             <p className='text-gray-600 text-center'> Stworzone z ❤️ przez <a href="https://github.com/fivestackpl" className='text-orange-500 hover:text-orange-600'>FiveStack</a> i jest dostępne za darmo na <a href="https://github.com/fivestackpl/fivestack-frontend" className='text-orange-500 hover:text-orange-600'>Github</a></p>
         </footer>
+
+        <Script src='https://app.embed.im/snow.js'></Script>
         </body>
     </html>
   )
